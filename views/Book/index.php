@@ -19,11 +19,16 @@
        <?php foreach ($books as $bok) { ?>
       <tr><td><a href="book/<?php echo $bok['id'] ?>"/>
           <?php echo $bok['name'] ?></a></td>
-          <td><?php echo $bok['author'] ?></td>
-          <td><?php echo $bok['publisher'] ?></td>
+          <td><a href="author/<?php echo $bok['id'] ?>"/>
+          <?php echo $bok['author'] ?></a></td>
+          <td><a href="publisher/<?php echo $bok['id'] ?>"/>
+          <?php echo $bok['publisher'] ?></a></td>
+          <tr>
        <?php } ?>
      </table>
      <a class="button button-primary" href="/">Back</a>
+     <a class="button button-primary" href="/publisher">Publisher</a>
+     <a class="button button-primary" href="/author">Author</a>
     </div>
    </div>
  </div>

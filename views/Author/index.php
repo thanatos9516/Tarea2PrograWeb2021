@@ -19,12 +19,16 @@
        <?php foreach ($authors as $auth) { ?>
       <tr><td><a href="author/<?php echo $auth['id'] ?>"/>
           <?php echo $auth['name'] ?></a></td>
-          <td><?php echo $auth['book'] ?></td>
+          <td><a href="book/<?php echo $auth['id'] ?>"/>
+          <?php echo $auth['book'] ?></a></td>
           <td><?php echo $auth['email'] ?></td>
-          <td><?php echo $auth['publisher'] ?></td></tr>
+          <td><a href="publisher/<?php echo $auth['id'] ?>"/>
+          <?php echo $auth['publisher'] ?></a></td></tr>
        <?php } ?>
      </table>
      <a class="button button-primary" href="/">Back</a>
+     <a class="button button-primary" href="/book">Book</a>
+     <a class="button button-primary" href="/publisher">Publisher</a>
     </div>
    </div>
  </div>

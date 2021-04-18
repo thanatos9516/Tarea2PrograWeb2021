@@ -4,15 +4,13 @@
 class Publisher extends Model {
 
   static $publishers = [
-    ['id'=>4056,'name'=>'Editorial Costa Rica ','book'=>'C# .Net Developer',
+    ['id'=>4056,'name'=>'John Wiley & Sons ','book'=>'Operating System Concepts',
      'author'=>'Juan Perez','phone'=>'8944556'], 
-     ['id'=>4056,'name'=>'Editorial Costa Rica ','book'=>'C# .Net Developer',
+     ['id'=>4056,'name'=>'John Wiley & Sons ','book'=>'Database System Concepts',
      'author'=>'Juan Perez','phone'=>'8944556'], 
-     ['id'=>4056,'name'=>'Editorial Costa Rica ','book'=>'C# .Net Developer',
+     ['id'=>4056,'name'=>'Pearson Education ','book'=>'Computer Networks',
      'author'=>'Juan Perez','phone'=>'8944556'], 
-     ['id'=>4056,'name'=>'Editorial Costa Rica ','book'=>'C# .Net Developer',
-     'author'=>'Juan Perez','phone'=>'8944556'], 
-     ['id'=>4056,'name'=>'Editorial Costa Rica ','book'=>'C# .Net Developer',
+     ['id'=>4056,'name'=>'Pearson Education ','book'=>'Modern Operating Systems',
      'author'=>'Juan Perez','phone'=>'8944556'], 
   ];
 
