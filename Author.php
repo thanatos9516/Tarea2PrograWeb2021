@@ -3,7 +3,7 @@
 
 class Author extends Model {
 
-  static $author = [
+  static $authors = [
     ['id'=>4056,'name'=>'Juan Perez ','book'=>'C# .Net Developer',
      'email'=>'juan.perez@univ.ac','publisher'=>'Editorial Costa Rica'], 
      ['id'=>4056,'name'=>'Juan Perez ','book'=>'C# .Net Developer',
@@ -17,11 +17,11 @@ class Author extends Model {
   ];
 
   public static function all() { 
-    return static::$authors; 
+    return self::$authors; 
   }
 
   public static function find($id) {
-    foreach (static::$authors as $key => $auth)
+    foreach (self::$authors as $key => $auth)
       if ($auth['id'] == $id) return $auth;
     return [];
   }
