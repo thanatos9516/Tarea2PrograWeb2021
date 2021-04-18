@@ -1,7 +1,7 @@
 <?php
   // file: Book.php
 
-class Book extends Model {
+class Books extends Model {
 
   static $book = [
     ['id'=>4056,'name'=>'C# .Net Developer ','author'=>'José Molina',

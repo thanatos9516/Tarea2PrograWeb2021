@@ -1,7 +1,7 @@
 <?php
   // file: Publisher.php
 
-class Publisher extends Model {
+class Publishers extends Model {
 
   static $publisher = [
     ['id'=>4056,'name'=>'Editorial Costa Rica ','book'=>'C# .Net Developer',
