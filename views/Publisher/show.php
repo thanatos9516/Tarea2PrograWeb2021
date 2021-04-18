@@ -19,26 +19,26 @@
       <div class="six columns">
        <label for="nameInput">Name</label>
        <input class="u-full-width" type="text" readonly
-          id="name" value="<?php echo $book['name']; ?>">
+          id="name" value="<?php echo $publisher['name']; ?>">
       </div>
       <div class="six columns">
        <label for="bookInput">Book</label>
        <input class="u-full-width" type="text" readonly
-          id="book" value="<?php echo $book['book']; ?>">
+          id="book" value="<?php echo $publisher['book']; ?>">
       </div>
      </div>
      <div class="row">
       <div class="six columns">
        <label for="authorlInput">Email</label>
        <input class="u-full-width" type="text" readonly
-          id="author" value="<?php echo $book['author']; ?>">
+          id="author" value="<?php echo $publisher['author']; ?>">
       </div>
       <div class="six columns">
        <label for="phoneInput">Phone</label>
        <input class="u-full-width" type="tel" readonly
-         id="phone" value="<?php echo $book['phone']; ?>">
+         id="phone" value="<?php echo $publisher['phone']; ?>">
       </div>
-     <a class="button button-primary" href="/professor">Back</a>
+     <a class="button button-primary" href="/publisher">Back</a>
      </div>
     </form>
    </div>

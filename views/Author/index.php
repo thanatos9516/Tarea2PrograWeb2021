@@ -17,13 +17,14 @@
       <tr><th>Name</th><th>Book</th>
           <th>Email</th><th>Publisher</th></tr>
        <?php foreach ($authors as $auth) { ?>
-      <tr><td><a href="author/<?php echo $prof['id'] ?>"/>
+      <tr><td><a href="author/<?php echo $auth['id'] ?>"/>
           <?php echo $auth['name'] ?></a></td>
           <td><?php echo $auth['book'] ?></td>
           <td><?php echo $auth['email'] ?></td>
           <td><?php echo $auth['publisher'] ?></td></tr>
        <?php } ?>
      </table>
+     <a class="button button-primary" href="/">Back</a>
     </div>
    </div>
  </div>

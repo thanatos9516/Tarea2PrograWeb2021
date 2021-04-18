@@ -24,7 +24,7 @@
       <div class="six columns">
        <label for="authorInput">Author</label>
        <input class="u-full-width" type="text" readonly
-          id="degree" value="<?php echo $book['degree']; ?>">
+          id="author" value="<?php echo $book['author']; ?>">
       </div>
      </div>
      <div class="row">

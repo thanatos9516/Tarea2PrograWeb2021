@@ -17,12 +17,13 @@
       <tr><th>Name</th><th>Author</th>
           <th>Publisher</th></tr>
        <?php foreach ($books as $bok) { ?>
-      <tr><td><a href="book/<?php echo $prof['id'] ?>"/>
+      <tr><td><a href="book/<?php echo $bok['id'] ?>"/>
           <?php echo $bok['name'] ?></a></td>
           <td><?php echo $bok['author'] ?></td>
           <td><?php echo $bok['publisher'] ?></td>
        <?php } ?>
      </table>
+     <a class="button button-primary" href="/">Back</a>
     </div>
    </div>
  </div>

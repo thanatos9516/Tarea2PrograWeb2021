@@ -14,7 +14,7 @@
     public function show($id) {
       $bok = Book::find($id);
       return view('book/show',
-        ['book'=>$prof,
+        ['book'=>$bok,
          'title'=>'Book Detail']);
     }
   }
