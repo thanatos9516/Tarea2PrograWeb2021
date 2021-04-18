@@ -1,9 +1,9 @@
 <?php
   // file: Book.php
 
-class Books extends Model {
+class Book extends Model {
 
-  static $book = [
+  static $books = [
     ['id'=>4056,'name'=>'C# .Net Developer ','author'=>'José Molina',
      'publisher'=>'Editorial Costa RIca.'], 
      ['id'=>4056,'name'=>'C# .Net Developer ','author'=>'José Molina',

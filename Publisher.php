@@ -1,9 +1,9 @@
 <?php
   // file: Publisher.php
 
-class Publishers extends Model {
+class Publisher extends Model {
 
-  static $publisher = [
+  static $publishers = [
     ['id'=>4056,'name'=>'Editorial Costa Rica ','book'=>'C# .Net Developer',
      'author'=>'Juan Perez','phone'=>'8944556'], 
      ['id'=>4056,'name'=>'Editorial Costa Rica ','book'=>'C# .Net Developer',
