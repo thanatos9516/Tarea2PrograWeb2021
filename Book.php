@@ -4,16 +4,14 @@
 class Book extends Model {
 
   static $books = [
-    ['id'=>4056,'name'=>'C# .Net Developer ','author'=>'José Molina',
-     'publisher'=>'Editorial Costa RIca.'], 
-     ['id'=>4056,'name'=>'C# .Net Developer ','author'=>'José Molina',
-     'publisher'=>'Editorial Costa RIca.'],
-     ['id'=>4056,'name'=>'C# .Net Developer ','author'=>'José Molina',
-     'publisher'=>'Editorial Costa RIca.'],
-     ['id'=>4056,'name'=>'C# .Net Developer ','author'=>'José Molina',
-     'publisher'=>'Editorial Costa RIca.'],
-     ['id'=>4056,'name'=>'C# .Net Developer ','author'=>'José Molina',
-     'publisher'=>'Editorial Costa RIca.'],
+    ['id'=>4056,'name'=>'Operating System Concepts ','author'=>'Abraham Silberschatz',
+     'publisher'=>'John Wiley & Sons'], 
+     ['id'=>4056,'name'=>'Database System Concepts','author'=>'Abraham Silberschatz',
+     'publisher'=>'John Wiley & Sons'],
+     ['id'=>4056,'name'=>'Computer Networks ','author'=>'Andrew S. Tanenbaum',
+     'publisher'=>'Pearson Education'],
+     ['id'=>4056,'name'=>'Modern Operating Systems 	 ','author'=>'Andrew S. Tanenbaum',
+     'publisher'=>'Pearson Education'],
   ];
 
   public static function all() { 
